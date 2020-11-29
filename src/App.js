@@ -62,7 +62,7 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={2}></Col>
+          <Col sm={1}></Col>
           <Col sm={3} id="journey-img">
             <img
               width="250px"
@@ -98,7 +98,7 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={2}></Col>
+          <Col sm={1}></Col>
           <Col sm={3} id="journey-img">
             <img
               width="250px"
@@ -130,7 +130,7 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={2}></Col>
+          <Col sm={1}></Col>
           <Col sm={3} id="journey-img">
             <img
               width="250px"
@@ -176,9 +176,9 @@ function App() {
           <div id="gallery-section" style={{ marginTop: "4rem" }}>
             <div id="thumbnail-gallery-container">
               <div class="thumbnail">
-              <h4>Tutor Dashboard</h4>
+              <h4 id='project-header'>Tutor Dashboard</h4>
                 <p>Developed a full stack tutoring management dashboard for my former tutoring buisness in order to manage lessons, locations, student levels and everything associated with the lessons. In the future I'd like to add the ability to store lessons, and associated files in AWS S3 buckets associated to each client, along with the ability for clients to access those files in a user facing frontend</p>
-                <p><b>Tech used:</b> React, google firebase, MongoDB, Node.js, express.js</p>
+                <p id='project-tech'><b>Tech used:</b> React, google firebase, MongoDB, Node.js, express.js</p>
                 <a href='https://tutoring-dashboard-mern.firebaseapp.com/'>
                 <img
                   class="thumbnail-image"
@@ -189,9 +189,9 @@ function App() {
               </div>
 
               <div class="thumbnail">
-                <h4>ML trader</h4>
+                <h4 id='project-header'>ML trader</h4>
                 <p>Worked in a team to build an ARIMA based price prediction model for the top 200 most popular stocks. The single page application allows users to view and predict stock prices with the power of big data and machine learning. Once predicted, the stock goes into a 3 level client side alert system that provides the user with feedback based off how the real stock price vs the predicted price is doing.</p>
-                <p><b>Tech used:</b> React, Flask, MySQL, AWS lambda</p>
+                <p  id='project-tech'><b>Tech used:</b> React, Flask, MySQL, AWS lambda</p>
               <a href='https://cse6242project-mlert.herokuapp.com/'>
                 <img
                   class="thumbnail-image"
