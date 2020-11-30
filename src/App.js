@@ -1,19 +1,19 @@
 import NavbarCustom from "./utils/navbar";
-import profilePic from "./profile-pic.jpg";
-import championsLogo from "./champions-logo.png";
-import georgiaTech from "./GeorgiaTech.jpg";
-import Baruch from "./Baruch.jpg";
-import TutorDashboard from "./TutorDashboard.png"
-import MLERT from "./MLERT.png"
+import profilePic from "./images/profile-pic.jpg";
+import championsLogo from "./images/champions-logo.png";
+import georgiaTech from "./images/GeorgiaTech.jpg";
+import Baruch from "./images/Baruch.jpg";
+import TutorDashboard from "./images/TutorDashboard.png"
+import MLERT from "./images/MLERT.png"
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Particles from "react-particles-js";
 function App() {
   return (
     <div>
-      <div style={{position: 'absolute', height: '100vh', width: '100vw'}}>
+      <div style={{position: 'absolute', height: '80vh', width: '100vw'}}>
         <Particles
         position= 'absolute'
-        height = '420vh'
+        height = '80vh'
           params={{
             particles: {
               number: {
@@ -52,9 +52,10 @@ function App() {
           <p id="intro-description">
             Software engineer focused on harnessing the power of data
           </p>
-          <img src={profilePic} style={{borderRadius: "40%", display:'block', marginLeft: 'auto', marginRight: 'auto', width: '20%'}}></img>
+          <img src={profilePic} style={{borderRadius: "40%", display:'block', marginLeft: 'auto', marginRight: 'auto', width: '25vw'}}></img>
         </div>
-        
+        </Container>
+        <Container>
         <Row className="d-flex justify-content-center" id="section-header">
           <h1 id="header-text-bold">Journey</h1>
         </Row>
@@ -62,15 +63,15 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={1}></Col>
-          <Col sm={3} id="journey-img">
+          <Col md={1}></Col>
+          <Col md={3} className='d-none d-lg-block' id="journey-img">
             <img
               width="250px"
               style={{ borderRadius: "30%" }}
               src={championsLogo}
             ></img>
           </Col>
-          <Col sm={4}>
+          <Col md={4}>
             <h3 id="journey-title">Champions Oncology</h3>
             <h4 id="journey-subtitle">Feb 2020 - Current</h4>
             <p>
@@ -98,15 +99,15 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={1}></Col>
-          <Col sm={3} id="journey-img">
+          <Col md={1}></Col>
+          <Col md={3} id="journey-img" className='d-none d-lg-block'>
             <img
               width="250px"
               style={{ borderRadius: "30%" }}
               src={georgiaTech}
             ></img>
           </Col>
-          <Col sm={4}>
+          <Col md={4}>
             <h3 id="journey-title">Georgia Tech</h3>
             <h4 id="journey-subtitle">August 2019 - Current</h4>
             <p>
@@ -130,15 +131,15 @@ function App() {
           style={{ marginTop: "4rem" }}
           className="d-flex justify-content-center"
         >
-          <Col sm={1}></Col>
-          <Col sm={3} id="journey-img">
+          <Col md={1}></Col>
+          <Col md={3} id="journey-img" className='d-none d-lg-block'>
             <img
               width="250px"
               style={{ borderRadius: "30%" }}
               src={Baruch}
             ></img>
           </Col>
-          <Col sm={4}>
+          <Col md={4}>
             <h3 id="journey-title">CUNY Baruch</h3>
             <h4 id="journey-subtitle">
               Graduated, bachelors in Math/Physics 2017

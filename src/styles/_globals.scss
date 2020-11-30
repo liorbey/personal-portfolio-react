@@ -9,9 +9,17 @@ $greenyellow: #E1DD8F;
 .intro-container{
     max-width: 100%;
     width: 100vw;
-    height: 420vh;
+    height: 80vh;
     padding: 4rem;
     color: white;
+}
+.container{
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    padding: 4rem;
+    color: white;
+    background-color: black;
 }
 
 #section-header{
@@ -51,13 +59,18 @@ $greenyellow: #E1DD8F;
 
 #logo{
     color:$bluemuted;
+    font-size: 25px;
     .fade{
         opacity: 0.4;
     }
 }
 
+#resume{
+    font-size: 25px;
+}
+
 #intro{
-    height: 80vh;
+    height: auto;
     margin-top: 5rem;
 }
 
@@ -128,4 +141,5 @@ $greenyellow: #E1DD8F;
       padding: 0px;
 
   }
+  
 }
