@@ -7,6 +7,9 @@ import TutorDashboard from "./images/TutorDashboard.png"
 import MLERT from "./images/MLERT.png"
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Particles from "react-particles-js";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+
 function App() {
   return (
     <div>
@@ -204,8 +207,11 @@ function App() {
           </div>
           </div>
         </Row>
-        <Card>
-  <Card.Body id='quoteEnd' style={{textAlign: 'center'}}>Talk is cheap. Show me the code - Linus Torvalds </Card.Body>
+        <hr></hr>
+        <Card style={{backgroundColor: 'transparent'}}>
+  <Card.Body id='quoteEnd' style={{textAlign: 'center', fontStyle: 'italic'}}>Talk is cheap. Show me the code - Linus Torvalds <br></br><br></br> <a href = 'https://github.com/liorbey' id='social-icons'><FontAwesomeIcon icon={faGithub} size="4x" /></a> <a href = 'https://www.linkedin.com/in/lior-beyderman/' id='social-icons'><FontAwesomeIcon icon={faLinkedin} size="4x" /></a>
+  
+ </Card.Body>
 </Card>
       </Container>
     </div>
