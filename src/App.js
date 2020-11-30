@@ -193,7 +193,7 @@ function App() {
                 <h4 id='project-header'>ML trader</h4>
                 <p>Worked in a team to build an ARIMA based price prediction model for the top 200 most popular stocks. The single page application allows users to view and predict stock prices with the power of big data and machine learning. Once predicted, the stock goes into a 3 level client side alert system that provides the user with feedback based off how the real stock price vs the predicted price is doing.</p>
                 <p  id='project-tech'><b>Tech used:</b> React, Flask, MySQL, AWS lambda</p>
-              <a href='https://cse6242project-mlert.herokuapp.com/'>
+              <a href=''>
                 <img
                   class="thumbnail-image"
                   src={MLERT}
